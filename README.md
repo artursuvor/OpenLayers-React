@@ -2,6 +2,10 @@
 
 This project is a simple web application that uses React and OpenLayers to display maps and interact with them.
 
+## Demo
+
+You can see a live demo of the project [here](https://open-layers-react-nu.vercel.app/).
+
 ## Prerequisites
 
 Before running the project, make sure you have the following installed on your machine:
@@ -42,3 +46,8 @@ To start the development server and run the project locally:
 ```bash
 npm start
 ```
+
+This will start the application and open it in your default web browser. By default, the app will be available at `http://localhost:3000`.
+```
+
+Теперь в файле `README.md` есть раздел с ссылкой на демо, где можно увидеть работу вашего проекта.
