@@ -1,6 +1,3 @@
-Прошу прощения за недоразумение. Вот весь файл `README.md` одним текстом:
-
-```markdown
 # OpenLayers-React
 
 This project is a simple web application that uses React and OpenLayers to display maps and interact with them.
@@ -9,7 +6,7 @@ This project is a simple web application that uses React and OpenLayers to displ
 
 Before running the project, make sure you have the following installed on your machine:
 
-- **Node.js** (v14 or higher): [Download Node.js](https://nodejs.org/)
+- **Node.js** [Download Node.js](https://nodejs.org/)
 - **npm** (Node Package Manager): This is typically installed along with Node.js.
 
 ## Installation
