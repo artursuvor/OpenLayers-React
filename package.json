@@ -7,22 +7,16 @@
     "ol": "^10.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1",
     "rlayers": "^3.3.1",
     "styled-components": "^6.1.14",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npm run build && node --test tests/map.test.cjs"
   },
   "browserslist": {
     "production": [
@@ -35,5 +29,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "vite": "8.3.5",
+    "@vitejs/plugin-react": "6.1.2",
+    "esbuild": "0.28.2",
+    "playwright": "1.58.2"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }
